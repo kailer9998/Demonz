@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1A1A1F;
+  font-family: Verdana,
+    sans-serif;
+  color: white;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

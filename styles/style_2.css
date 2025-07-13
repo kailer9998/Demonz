@@ -1,0 +1,22 @@
+.header_1 {
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: 60px;
+}
+
+.header_2 {
+  text-align: center;
+  padding: 1px;
+}
+
+.search_1 {
+  text-align: center;
+  margin: 10px;
+}
+
+ .search-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
