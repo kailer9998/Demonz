@@ -4,11 +4,6 @@
   margin-bottom: 60px;
 }
 
-.header_2 {
-  text-align: center;
-  padding: 1px;
-}
-
 .search_1 {
   text-align: center;
   margin: 10px;
@@ -19,4 +14,29 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li{
+  margin: 5px;
+}
+
+.sum_ry {
+  display: flex;
+}
+
+.details-content {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease, opacity 0.5s ease;
+}
+
+.animated-details.opening .details-content,
+.animated-details[open] .details-content {
+  max-height: 500px;
+  opacity: 1;
 }

@@ -63,21 +63,8 @@ ul {
 	background-color: #1A1A1F;
 }
 
-.footer {
-			border-top: 2px solid #ff3e3e;
-				padding-top: 20px;
-				background-color: #1A1A1F;
-}
-
 .foto_1>p {
 	text-align: center;
 	margin-top: 10px;
 	margin-bottom: 10px;
-}
-
-.footer_list {
-	list-style-type: none;
-	justify-content: space-between;
-	display: flex;
-	margin-right: 100px;
 }
