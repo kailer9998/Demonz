@@ -40,3 +40,14 @@ li{
   max-height: 500px;
   opacity: 1;
 }
+
+.search_line {
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 16px;
+  border: none;
+  background-color: #2c2c34;
+  color: white;
+}
