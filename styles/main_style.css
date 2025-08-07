@@ -13,7 +13,7 @@ a {
   color: inherit;
 }
 
-.footer {
+footer {
   border-top: 2px solid #ff3e3e;
   padding-top: 20px;
   background-color: #1A1A1F;
@@ -27,7 +27,7 @@ a {
   margin-right: 100px;
 }
 
-.header {
+header {
   text-align: center;
   padding: 1px;
   background-color: #1A1A1F;
