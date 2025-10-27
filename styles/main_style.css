@@ -1,56 +1,115 @@
 body {
-  margin: 0;
-  padding: 0;
-  background-color: #1A1A1F;
-  font-family: Verdana,
-    sans-serif;
-  color: white;
-  height: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #1a1a1f;
+	font-family: Verdana, sans-serif;
+	color: white;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+header,
+footer {
+	width: 100%;
+	height: 70px;
+	border-bottom: 2px solid #ff3e3e;
+	background-color: #1a1a1f;
 }
 
 a {
-  text-decoration: none;
-  color: inherit;
+	text-decoration: none;
+	color: inherit;
 }
 
 footer {
-  border-top: 2px solid #ff3e3e;
-  padding-top: 20px;
-  background-color: #1A1A1F;
-  margin-top: 100px;
+	border-top: 2px solid #ff3e3e;
+	padding-top: 20px;
 }
 
 .footer_list {
-  list-style-type: none;
-  justify-content: space-between;
-  display: flex;
-  margin-right: 100px;
+	list-style-type: none;
+	justify-content: space-between;
+	display: flex;
+	margin-right: 100px;
 }
 
-header {
-  text-align: center;
-  padding: 1px;
-  background-color: #1A1A1F;
+main {
+	flex: 1;
+	display: flex;
 }
 
-.images_left {
-  display: flex;
-  float: left;
-  margin: 10px;
-  margin-top: 23px;
-  flex-direction: column;
+.sidebar {
+	width: 15%;
+	padding: 20px;
+	border-right: 2px solid #ff3e3e;
+	box-sizing: border-box;
 }
 
-.header_2 {
-  display: flex;
-  margin-left: 10px;
-  background-color: #1A1A1F;
+.pin {
+	position: fixed;
+	bottom: 100px;
+	right: 10px;
 }
 
-.images_right {
-  display: flex;
-  float: right;
-  margin: 10px;
-  margin-top: 23px;
-  flex-direction: column;
+.pin > a > img {
+	width: 50px;
+	border-radius: 10px;
+}
+
+.dm_img {
+	width: 70px;
+	float: left;
+}
+
+.text {
+	flex: 1;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+input[type='search'] {
+	width: 100px;
+	background-color: #212127;
+	border-radius: 4px;
+	border-color: #ff3e3e;
+	color: white;
+}
+
+.list_users {
+	background-color: #212127;
+	color: white;
+	border-radius: 4px;
+	border-color: #ff3e3e;
+	color: white;
+	width: 200px;
+	height: 30px;
+	margin: 4px;
+}
+
+.sumb {
+	background-color: #212127;
+	color: white;
+	border-radius: 4px;
+	border-color: #ff3e3e;
+	color: white;
+}
+
+.search-block {
+	width: calc(100% + 40px);
+	margin-left: -20px;
+	box-sizing: border-box;
+	border-bottom: 2px solid #ff3e3e;
+	padding: 0px 20px 10px;
+}
+
+.anonim {
+	width: 10px;
+}
+
+.buttons {
+	display: flex;
+	flex-direction: column;
+	margin-top: 10px;
+	margin-left: 15px;
 }

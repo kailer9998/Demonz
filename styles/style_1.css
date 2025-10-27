@@ -1,69 +1,33 @@
-.header {
+.header_1 {
 	text-align: center;
-	padding: 1px;
-	background-color: #1A1A1F;
-	
-}
-
-.content {
-	display: flex;
-	flex-direction: column;
-	background-color: #1A1A1F;
-}
-
-.images_left {
-	display: flex;
-	float: left;
-	margin: 10px;
-	margin-top: 23px;
-	flex-direction: column;
-}
-
-.h_2 {
-	display: flex;
-	margin-left: 10px;
-	background-color: #1A1A1F;
-}
-
-.images_right {
-	display: flex;
-	float: right;
-	margin: 10px;
-	margin-top: 23px;
-	flex-direction: column;
+	margin-top: 10px;
+	margin-bottom: 30px;
 }
 
 ul {
 	list-style-type: none;
 }
 
-.h_3 {
+li {
+	margin: 5px;
+}
+
+.krass_img {
+  float: right;
+	border-radius: 15px;
+}
+
+.header_second {
+	margin-top: 100px;
 	text-align: center;
+}
+
+.demonzpedia {
+	display: inline-block;
+	font-size: 20px;
+}
+
+.nav_panel{
 	display: flex;
-	flex-direction: column;
-	background-color: #1A1A1F;
-}
-
-.foto {
-	display: flex;
-	justify-content: center;
-	margin: 100px;
-}
-
-.foto_1{
-	margin-left: 10px;
-	margin-right: 10px;
-}
-
-.foto_0 {
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	background-color: #1A1A1F;
-}
-
-.foto_1>p {
-	text-align: center;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	height: 100vh;
 }
