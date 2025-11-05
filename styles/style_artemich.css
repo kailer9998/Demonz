@@ -1,0 +1,44 @@
+.list_1 {
+	border: 2px solid #ff3e3e;
+	background-color: #16161a;
+	display: flex;
+	flex-direction: column;
+	border-radius: 20px;
+	width: 1000px;
+}
+
+.artemich {
+	width: 300px;
+	height: 400px;
+	border: 2px solid #ff3e3e;
+	border-radius: 10px;
+	margin: 20px;
+}
+
+.three_foto {
+	display: flex;
+	justify-content: center;
+	margin: 100px;
+	border: 2px solid #ff3e3e;
+	border-radius: 10px;
+}
+
+.podpis {
+	text-align: center;
+	border: 2px solid #ff3e3e;
+	width: 150px;
+	border-radius: 10px;
+}
+
+.block_w_foto {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.galary {
+	border: 2px solid #ff3e3e;
+	border-radius: 15px;
+	background-color: #16161a;
+	margin-bottom: 100px;
+}
